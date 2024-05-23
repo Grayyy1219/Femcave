@@ -1,0 +1,87 @@
+
+
+h2 {
+    color: #ff6b81;
+    /* Pink heading color */
+}
+
+.wrapper {
+    background-color: #ffffff;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #cc66a6;
+    /* Dark pink label color */
+}
+
+input[type="text"],
+input[type="date"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ff6b81;
+    /* Pink border for input fields */
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    outline: none;
+    border-color: #cc66a6;
+    /* Dark pink border on focus */
+}
+
+button {
+    background-color: #ff6b81;
+    /* Pink button background */
+    color: #fff;
+    /* White text color for the button */
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc66a6;
+    /* Darker pink on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ff6b81;
+    /* Pink border for table rows */
+}
+
+th {
+    background-color: #ff6b81;
+    
+    color: #fff;
+    /* White text color for table headers */
+}
+
+tr:hover {
+    background-color: #fce8e8;
+    /* Light pink background on row hover */
+}

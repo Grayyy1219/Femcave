@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f3f3;
+    
+    color: #6c757d;
+    /* Gray text color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6b81;
+    /* Light pink header background */
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff6b81;
+    /* Pink heading color */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+select {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ff6b81;
+    /* Pink border for input fields */
+    border-radius: 5px;
+    min-width: 400px;
+}
+
+input[type="submit"] {
+    background-color: #ff6b81;
+    /* Pink submit button background */
+    color: #fff;
+    /* White text color for the submit button */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #cc66a6;
+    /* Darker pink on hover */
+}
+
+.btn-upload-img {
+    background-color: #ff6b81;
+    /* Pink background for the upload button */
+    color: #fff;
+    /* White text color for the upload button */
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-upload-img:hover {
+    background-color: #cc66a6;
+    /* Darker pink on hover for the upload button */
+}

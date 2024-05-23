@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    /* Light gray background */
+    color: #333;
+    /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    /* White background */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    /* Soft box shadow for depth */
+    border-radius: 10px;
+    /* Rounded corners */
+    margin-top: 120px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff6b81;
+    /* Coral pink heading color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.user-table th,
+.user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    /* Light gray border between rows */
+}
+
+.user-table th {
+    background-color: #ff6b81;
+    /* Coral pink header background */
+    color: #fff;
+}
+
+.user-table tr:hover {
+    background-color: #f5f5f5;
+    /* Light gray background on hover */
+}
+
+.edit {
+    padding: 8px 15px;
+    background-color: #ff6b81;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.edit:hover {
+    background-color: #ff4757;
+    /* Darker coral pink on hover */
+}
+
+.delete-checkbox {
+    margin-left: 5px;
+}
+
+#delete {
+    text-align: right;
+}
+
+.Signup {
+    padding: 10px 20px;
+    background-color: #ff6b81;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.Signup:hover {
+    background-color: #ff4757;
+    /* Darker coral pink on hover */
+}
+
+.delete {
+    padding: 10px 20px;
+    background-color: #ff6b81;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.delete:hover {
+    background-color: #ff4757;
+    /* Darker coral pink on hover */
+}

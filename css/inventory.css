@@ -1,0 +1,187 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdd2e3;
+    
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ff6b81;
+    /* Coral pink heading color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#filter-form {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #ff6b81;
+    /* Coral pink label color */
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ff6b81;
+    /* Coral pink border */
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 8px 20px;
+    background-color: #ff6b81;
+    /* Coral pink button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    /* Adjusted font size */
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4757;
+    /* Darker coral pink on hover */
+}
+
+#Add {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 1560px;
+}
+
+.Add {
+    padding: 15px 25px;
+    background-color: #ff6b81;
+    /* Coral pink button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.Add:hover {
+    background-color: #ff4757;
+    /* Darker coral pink on hover */
+}
+
+#inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 2px solid #ff6b81;
+    /* Coral pink border between rows */
+}
+
+.adjust {
+    padding: 8px;
+    background-color: #ff6b81;
+    /* Coral pink button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.adjust:hover {
+    background-color: #ff4757;
+    /* Darker coral pink on hover */
+}
+
+.edit {
+    padding: 8px 15px;
+    /* Adjusted padding for a more balanced size */
+    background-color: #ff6b81;
+    /* Coral pink button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    /* Adjusted font size */
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.edit:hover {
+    background-color: #ff4757;
+    /* Darker coral pink on hover */
+}
+
+.delete-checkbox {
+    margin-left: 5px;
+}
+
+.delete {
+    padding: 15px 25px;
+    background-color: #ff6b81;
+    /* Coral pink button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.delete:hover {
+    background-color: #ff4757;
+    /* Darker coral pink on hover */
+}
+
+.pagination {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 5px;
+}
+
+.pageno {
+    padding: 8px;
+    background-color: #ffffff;
+    /* Coral pink button */
+    color: #000000;
+    border: solid 1px black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.pageno:hover {
+    background-color: #ff4757;
+    /* Darker coral pink on hover */
+}
+
+.selected-page {
+    background-color: #ff4757;
+    color: #ffffff;
+    /* Darker coral pink for selected page */
+}

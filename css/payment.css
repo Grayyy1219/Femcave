@@ -1,0 +1,177 @@
+ /* .payment-container {
+     width: 50%;
+     border: 2px solid #ccc;
+     border-radius: 10px;
+     padding: 20px;
+     box-sizing: border-box;
+     margin-top: 70px;
+ }
+
+ .form-group label {
+     margin-bottom: 5px;
+     font-weight: bold;
+ }
+
+ .form-group input {
+     padding: 8px;
+     font-size: 16px;
+ }
+
+ .payment-button {
+     margin-top: 20px;
+     text-align: right;
+ }
+
+ label {
+     display: block;
+     font-size: 16px;
+     margin-bottom: 8px;
+ }
+
+ select {
+     width: 100%;
+     padding: 10px;
+     font-size: 16px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     box-sizing: border-box;
+ }
+
+ .checkout-container {
+     width: 40%;
+     border: 2px solid #ccc;
+     border-radius: 10px;
+     padding: 20px;
+     box-sizing: border-box;
+     margin-top: 20px;
+ }
+
+ .item-summary {
+     display: flex;
+     align-items: center;
+     margin-bottom: 5px;
+     border: 1px solid #ddd;
+     padding: 10px;
+     gap: 10px;
+ }
+
+ .item-image {
+     width: 80px;
+     margin-right: 10px;
+ }
+
+ .checkout-button {
+     margin-top: 20px;
+     text-align: right;
+ }
+ #w3 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ } */
+
+ .wrapper {
+     position: relative;
+     top: 85px;
+     padding-bottom: 90px;
+ }
+
+ /* payment.css */
+
+ /* Body Styles */
+ body {
+     font-family: 'Lobster', cursive;
+     /* Decorative font */
+     background: linear-gradient(to bottom, #fce4ec, #fff);
+     /* Soft gradient background */
+     color: #555;
+     /* Dark text color */
+     margin: 0;
+ }
+
+ /* Header Styles */
+ header {
+     background: linear-gradient(to right, #ff4081, #ff8c68);
+     /* Gradient header background */
+     color: #fff;
+     /* White text color */
+     padding: 20px;
+     text-align: center;
+     font-size: 24px;
+     border-bottom: 2px solid #fff;
+     /* White border at the bottom */
+ }
+
+ /* Wrapper Styles */
+ .wrapper {
+     max-width: 1200px;
+     margin: auto;
+     padding: 150px;
+     background-color: #fff;
+     /* White wrapper background color */
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin-bottom: 200px;
+    margin-top: 100px;
+ }
+
+ /* Payment Container Styles */
+ .payment-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ /* Payment Form Styles */
+ .payment-form {
+     width: 100%;
+     max-width: 400px;
+     margin: 0 auto;
+ }
+
+ /* Form Group Styles */
+ .form-group {
+     margin-bottom: 20px;
+ }
+
+ .form-group label {
+     color: #ff4081;
+     /* Pink text color */
+     display: block;
+     font-weight: bold;
+     margin-bottom: 5px;
+ }
+
+ /* Select Styles */
+ select {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #ddd;
+     /* Light gray border */
+     border-radius: 5px;
+ }
+
+ /* Payment Button Styles */
+ .payment-button {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .payment-button button {
+     background: #ff4081;
+     /* Gradient button background */
+     color: #fff;
+     /* White text color */
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+ }
+
+ /* Responsive Styles */
+ @media (max-width: 768px) {
+     .form-group label {
+         font-size: 16px;
+     }
+ }
