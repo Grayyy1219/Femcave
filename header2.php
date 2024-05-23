@@ -164,8 +164,6 @@
   }
 </script>
 <script>
-  var sortValue;
-  var filterValue;
   var searchValue;
 
   document.getElementById('searchbar').addEventListener('keyup', function() {
